@@ -1,6 +1,7 @@
 import React from "react";
 import "./Produtos.css";
 import { Link } from "react-router-dom";
+import Head from "./Head";
 
 const Produtos = () => {
   const [produtos, setProdutos] = React.useState(null);
@@ -14,6 +15,7 @@ const Produtos = () => {
   if (produtos === null) return null;
   return (
     <section className="produtos  animeLeft">
+      <Head title="Ranek" description="Essa é página de produtos" />
       {produtos.map((produto) => (
         <Link to={`produto/${produto.id}`} key={produto.id}>
           <img src={produto.fotos[0].src} alt={produto.fotos[0].titulo} />
