@@ -27,3 +27,26 @@ h1 {
     opacity: initial;
   }
 }
+
+.loading {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 10px solid #91fb5d;
+  border-right-color: transparent;
+  animation: loading 1s infinite;
+}
+
+@keyframes loading {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  max-width: 40rem;
+  margin: 0 auto;
+  min-height: calc(100vh + 10rem);
+}
