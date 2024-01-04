@@ -2,6 +2,8 @@
 
 Este é um projeto React que utiliza a API Ranek para exibir uma lista de produtos. O projeto inclui navegação entre páginas usando o React Router.
 
+![screencapture-localhost-5173-2024-01-04-00_49_44](https://github.com/Coimbra777/Produtos-API-React/assets/103074944/6b7a6a6c-fccb-4563-9cc1-05d140bc9358)
+
 ## Funcionalidades
 
 - **Listagem de Produtos:** Exibe uma lista de produtos consumidos da API Ranek.
